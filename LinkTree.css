@@ -98,7 +98,12 @@ a {
     height: 200px; /* Ajusta la altura para uniformidad */
     object-fit: cover; /* Evita que las imágenes se deformen */
     border-radius: 10px; /* Bordes redondeados */
+     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     }
+.galeria img:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
     .instagram {
         text-align: center; /* Centra el icono */
         margin-top: 20px;
