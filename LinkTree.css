@@ -88,9 +88,13 @@ h2 {
     min-height: 10vh;
 }
 
-
-
-
+.nota {
+    font-size: 14px;
+    color: darkred;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
 
 
 table {
