@@ -81,10 +81,14 @@ a {
 .galeria {
     background-color: beige;
     display: grid;
-   padding: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10PX;
     margin: 20px;
-     padding: 20PX;
+    justify-content: center;
+    align-items: center;
+    padding: 20PX;
     min-height: 15PX;
+
 
 }
 .galeria img {
