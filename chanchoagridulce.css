@@ -1,0 +1,36 @@
+div {
+ 
+        background-color: aliceblue;
+        padding: 2px;
+        display: flex;
+        flex-direction: column;
+        font-family:'Times New Roman', Times, serif;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+}
+h1 {
+    color: saddlebrown;
+}
+img {
+    border-radius: 50%;
+    
+}
+.ingredientes {
+    background-color: antiquewhite;
+    margin: 10px;
+    text-align: start;
+    min-height: 20px;
+    border-radius: 20px;
+    padding: 5px;
+}
+.pasos {
+    background-color: antiquewhite;
+    margin: 5px;
+    text-align: start;
+    min-height: 20px;
+    border-radius: 20px;
+    padding: 5px;
+
+}
