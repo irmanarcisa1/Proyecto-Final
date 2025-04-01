@@ -2,7 +2,7 @@ header {
     text-align: center;
     padding: 10px;
     color: white;
-    background-color: aliceblue;
+    background-color:aliceblue;
     margin-bottom: 20px;
 }
 
@@ -89,11 +89,6 @@ h2 {
 }
 
 
-table {
-
-    color: black;
-    margin-top: 30px;
-}
 
 
 
@@ -102,8 +97,17 @@ table {
     border-collapse: collapse;
     width: 100%;
     margin: auto;
+    color: black;
+    margin-top: 30px;
 
 }
+.tabla-container {
+    width: 100%;
+    overflow-x: auto; /* Agrega scroll horizontal si es necesario */
+}
+
+
+
 
 table,
 th,
