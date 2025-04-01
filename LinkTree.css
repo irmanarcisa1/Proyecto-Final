@@ -13,6 +13,9 @@ h1 {
     color: sienna;
     
 }
+h2 {
+    color: sienna;
+}
 .parrafo {
     font-size: large;
     background-color: bisque;
@@ -89,7 +92,6 @@ a {
     padding: 20PX;
     min-height: 15PX;
 
-
 }
 .galeria img {
     width: 100%; /* Hace que las imágenes se ajusten al contenedor */
@@ -97,7 +99,7 @@ a {
     object-fit: cover; /* Evita que las imágenes se deformen */
     border-radius: 10px; /* Bordes redondeados */
     }
- .instagram {
+    .instagram {
         text-align: center; /* Centra el icono */
         margin-top: 20px;
         color: beige;
