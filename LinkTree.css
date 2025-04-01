@@ -1,3 +1,62 @@
+header {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: aparecer 1s ease-out forwards;
+
+}
+@keyframes aparecer {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+/* Responsividad */
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+}
+
+/* Estilo predeterminado para escritorio */
+body {
+    font-size: 16px;
+    background-color: aliceblue;
+}
+
+/* Estilo para pantallas pequeñas (móviles) */
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    .galeria {
+        grid-template-columns: repeat(2, 1fr); /* 2 imágenes por fila en móvil */
+    }
+
+    .instagram img {
+        width: 50px; /* Hacer más pequeño el logo en móvil */
+    }
+}
+
+/* Estilo para pantallas medianas (tabletas) */
+@media screen and (max-width: 1024px) {
+    .galeria {
+        grid-template-columns: repeat(3, 1fr); /* 3 imágenes por fila en tabletas */
+    }
+}
 div {
     background-color: aliceblue;
     padding: 2px;
@@ -6,11 +65,12 @@ div {
     font-family: 'Times New Roman', Times, serif;
     justify-content: center;
     align-items: center;
-    min-height: 40vh;
+    min-height: 20vh;
     margin: 0;
 }
 h1 {
     color: sienna;
+    font-size: 2em;
     
 }
 h2 {
@@ -21,10 +81,10 @@ h2 {
     background-color: bisque;
     color: rgb(255, 142, 127);
     border: 5px;
-    padding: 30px;
+    padding: 20px;
     border-radius: 5px;
     margin: 10px;
-    min-height: 15vh;
+    min-height: 10vh;
 }
 
 
@@ -98,12 +158,15 @@ a {
     height: 200px; /* Ajusta la altura para uniformidad */
     object-fit: cover; /* Evita que las imágenes se deformen */
     border-radius: 10px; /* Bordes redondeados */
-     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
     }
-.galeria img:hover {
-    transform: scale(1.1);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-}
+    .galeria img:hover {
+        transform: scale(1.1);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    }
     .instagram {
         text-align: center; /* Centra el icono */
         margin-top: 20px;
